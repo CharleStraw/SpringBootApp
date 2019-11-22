@@ -11,9 +11,6 @@ import java.util.HashMap;
 //@Repository annotates classes at the persistence layer, which will act as a database repository
 //@Controller is a common annotation which is used to mark a class as Spring MVC
 
-
-
-
 @Repository
 public class StudentDAO {
 
@@ -45,5 +42,10 @@ public class StudentDAO {
 
     }
 
+    public Student getStudentById(int id){
 
+        return  this.students.get(id);
+
+
+    }
 }
