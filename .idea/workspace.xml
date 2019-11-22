@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e30be0e5-2e2b-4d01-8b6c-c0a599ef3358" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/Controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/Controller/StudentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/app/Dao/StudentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/Dao/StudentDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/Entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/Entity/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/Service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/Service/StudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/app/Controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/Controller/StudentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/app/Dao/StudentDAO$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/Dao/StudentDAO$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/app/Dao/StudentDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/Dao/StudentDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/app/Entity/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/Entity/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/app/Service/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/Service/StudentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574326531836</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="22.11.2019 making method getStudentById">
+      <created>1574426730464</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574426730464</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,6 +126,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="20.11.2019" />
     <MESSAGE value="21.11.2019" />
-    <option name="LAST_COMMIT_MESSAGE" value="21.11.2019" />
+    <MESSAGE value="22.11.2019 making method getStudentById" />
+    <option name="LAST_COMMIT_MESSAGE" value="22.11.2019 making method getStudentById" />
   </component>
 </project>

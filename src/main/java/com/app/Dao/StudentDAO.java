@@ -23,7 +23,7 @@ public class StudentDAO {
 
             {
 
-                put(1, new Student(1, "Said", "Computer Science"));
+                put(1, new Student(1, "Said", "Computer Sciencee"));
                 put(2, new Student(2, "Karol", "Finance"));
                 put(3, new Student(3, "Mark", "Programing and Testing"));
             }
