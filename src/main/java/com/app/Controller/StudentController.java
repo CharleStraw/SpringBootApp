@@ -3,11 +3,10 @@ package com.app.Controller;
 import com.app.Entity.Student;
 import com.app.Service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.*;
 
+import java.awt.*;
 import java.util.Collection;
 
 @RestController
@@ -31,8 +30,25 @@ public class StudentController {
     public Student getStudentById(@PathVariable("id") int id) {
 
         return studentService.getStudentById(id);
+    }
+
+    @RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
+    public Student deleteStudentById(@PathVariable("id") int id) {
+
+        return studentService.deleteStudentByiD(id);
+    }
 
 
+    @RequestMapping(method = RequestMethod.PUT, consumes = MediaType.APPLICATION_JSON_VALUE)
+    public void updateStudent(@RequestBody Student student) {
+        System.out.println("RequestMethod.PUT" + student.getName());
+        studentService.updateStudent(student);
+    }
+
+    @RequestMapping(method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
+    public void postStudent(@RequestBody Student student) {
+        System.out.println("RequestMethod.PUT" + student.getName());
+        studentService.postStudent(student);
     }
 
 

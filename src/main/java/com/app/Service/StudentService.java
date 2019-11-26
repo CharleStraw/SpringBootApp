@@ -31,4 +31,20 @@ public class StudentService {
         return  studentDAO.getStudentById(id);
 
     }
+
+    public Student deleteStudentByiD(int id) {
+        return  studentDAO.deleteStudentById(id);
+    }
+
+    public void updateStudent(Student student){
+
+        System.out.println("ASDASDASD" + student.getName());
+          this.studentDAO.updateStudent(student);
+
+    }
+
+
+    public void postStudent(Student student) {
+        this.studentDAO.postStudent(student);
+    }
 }

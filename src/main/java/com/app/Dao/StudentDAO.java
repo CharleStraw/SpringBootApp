@@ -48,4 +48,25 @@ public class StudentDAO {
 
 
     }
+
+    public Student deleteStudentById(int id) {
+        return  this.students.remove(id);
+    }
+
+    public void updateStudent(Student student){
+
+         Student s = students.get(student.getId());
+         s.setCourse(student.getCourse());
+         s.setName(student.getName());
+         students.put(student.getId(),student);
+    }
+
+    public void postStudent(Student student) {
+        Student s = new Student();
+        s.setId(student.getId());
+        s.setCourse(student.getCourse());
+        s.setName(student.getName());
+        students.put(student.getId(),student);
+
+    }
 }
