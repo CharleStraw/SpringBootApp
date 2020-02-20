@@ -11,6 +11,7 @@ import java.util.Collection;
 
 @RestController
 @RequestMapping("/students")
+@CrossOrigin
 public class StudentController {
 
 
@@ -33,9 +34,9 @@ public class StudentController {
     }
 
     @RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
-    public Student deleteStudentById(@PathVariable("id") int id) {
+    public void deleteStudentById(@PathVariable("id") int id) {
 
-        return studentService.deleteStudentByiD(id);
+        studentService.deleteStudentByiD(id);
     }
 
 
@@ -48,7 +49,7 @@ public class StudentController {
     @RequestMapping(method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
     public void postStudent(@RequestBody Student student) {
         System.out.println("RequestMethod.PUT" + student.getName());
-        studentService.postStudent(student);
+        studentService.insertStudent(student);
     }
 
 

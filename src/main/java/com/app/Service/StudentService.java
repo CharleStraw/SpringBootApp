@@ -1,7 +1,8 @@
 package com.app.Service;
 
+import com.app.Dao.MySQLdao;
 import com.app.Entity.Student;
-import com.app.Dao.StudentDAO;
+import com.app.Dao.StudentDAOmongo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -11,40 +12,36 @@ import java.util.Collection;
 public class StudentService {
 
 
-
-
     @Autowired
-    private StudentDAO studentDAO;
+    private MySQLdao mySQLdao;
 
 
+    public Collection<Student> getAllStudents() {
 
-
-    public Collection<Student> getAllStudents(){
-
-        return  studentDAO.getAllStudents();
+        return mySQLdao.getAllStudents();
 
 
     }
 
-    public Student getStudentById(int id){
+    public Student getStudentById(int id) {
 
-        return  studentDAO.getStudentById(id);
-
-    }
-
-    public Student deleteStudentByiD(int id) {
-        return  studentDAO.deleteStudentById(id);
-    }
-
-    public void updateStudent(Student student){
-
-        System.out.println("ASDASDASD" + student.getName());
-          this.studentDAO.updateStudent(student);
+        return mySQLdao.getStudentById(id);
 
     }
 
+    public void deleteStudentByiD(int id) {
+         mySQLdao.removeStudentById(id);
+    }
 
-    public void postStudent(Student student) {
-        this.studentDAO.postStudent(student);
+    public void updateStudent(Student student) {
+
+
+        this.mySQLdao.updateStudent(student);
+
+    }
+
+
+    public void insertStudent(Student student) {
+        this.mySQLdao.insertStudent(student);
     }
 }
