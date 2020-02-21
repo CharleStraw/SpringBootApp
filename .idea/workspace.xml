@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="springBoot:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e30be0e5-2e2b-4d01-8b6c-c0a599ef3358" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="e30be0e5-2e2b-4d01-8b6c-c0a599ef3358" name="Default Changelist" comment="22.11.2019 making method getStudentById">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/springBoot_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/Controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/Controller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/Dao/StudentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/Dao/StudentDAOmongo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/Service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/Service/StudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/springBoot.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/app/Controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/Controller/StudentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/app/Dao/StudentDAO$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/app/Dao/StudentDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/Dao/StudentDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/app/Service/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/app/Service/StudentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/springMainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/app/Main.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="springBoot" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -40,7 +44,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../springBootAngular" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -51,11 +55,12 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pc\IdeaProjects\springBoot\src\main\web-app" />
       <recent name="C:\Users\Pc\IdeaProjects\springBoot\src\main\resources" />
       <recent name="C:\Users\Pc\IdeaProjects\springBoot\src\main\java" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JAR Application.springBoot.jar">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.app.Main" />
       <module name="springBoot" />
@@ -63,8 +68,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="springBoot.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/springBoot_jar/springBoot.jar" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <module name="springBoot" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JAR Application.springBoot.jar" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -141,7 +154,21 @@
       <option name="project" value="LOCAL" />
       <updated>1574771583987</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="22.11.2019 making method getStudentById">
+      <created>1582189554466</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1582189554466</updated>
+    </task>
+    <task id="LOCAL-00009" summary="22.11.2019 making method getStudentById">
+      <created>1582189641696</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1582189641696</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,18 +191,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="22.11.2019 making method getStudentById" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="179" key="#Project_Structure" timestamp="1581317423866">
+    <state x="552" y="179" key="#Project_Structure" timestamp="1582272160696">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="179" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1581317423866" />
-    <state x="739" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581668504776">
+    <state x="552" y="179" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1582272160696" />
+    <state x="739" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582280641195">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1581668504776" />
+    <state x="739" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1582280641195" />
+    <state x="739" y="224" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1582275388967">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="224" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582275388967" />
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1582103544182">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1582103544182" />
+    <state x="690" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1582275181694">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582275181694" />
     <state x="756" y="379" width="407" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582107867921">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -184,30 +219,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="770" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582102402999" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1582101245746">
+    <state x="679" y="168" key="#springBoot.jar" timestamp="1582275426131">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582101245746" />
+    <state x="679" y="168" key="#springBoot.jar/0.0.1920.1040@0.0.1920.1040" timestamp="1582275426131" />
+    <state x="601" y="214" key="CommitChangelistDialog2" timestamp="1582189640716">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="601" y="214" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582189640716" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1582275411048">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582275411048" />
     <state x="794" y="418" width="356" height="203" key="Github.CreateGistDialog" timestamp="1576229859062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="418" width="356" height="203" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576229859062" />
-    <state width="935" height="248" key="GridCell.Tab.0.bottom" timestamp="1582189478266">
+    <state width="935" height="76" key="GridCell.Tab.0.bottom" timestamp="1582282540318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="935" height="248" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582189478266" />
-    <state width="935" height="248" key="GridCell.Tab.0.center" timestamp="1582189478266">
+    <state width="935" height="76" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582282540318" />
+    <state width="935" height="76" key="GridCell.Tab.0.center" timestamp="1582282540318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="935" height="248" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582189478266" />
-    <state width="935" height="248" key="GridCell.Tab.0.left" timestamp="1582189478256">
+    <state width="935" height="76" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582282540318" />
+    <state width="935" height="76" key="GridCell.Tab.0.left" timestamp="1582282540318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="935" height="248" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582189478256" />
-    <state width="935" height="248" key="GridCell.Tab.0.right" timestamp="1582189478266">
+    <state width="935" height="76" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582282540318" />
+    <state width="935" height="76" key="GridCell.Tab.0.right" timestamp="1582282540318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="935" height="248" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582189478266" />
+    <state width="935" height="76" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582282540318" />
     <state width="938" height="348" key="GridCell.Tab.1.bottom" timestamp="1582115636451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -224,10 +267,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="938" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582115636451" />
-    <state x="655" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1582189496957">
+    <state x="490" y="174" key="Maven.ArtifactSearchDialog" timestamp="1582283160486">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="655" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582189496957" />
+    <state x="490" y="174" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582283160486" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1582275203416">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582275203416" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1582189681331">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582189681331" />
+    <state x="655" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1582278558734">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="655" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582278558734" />
     <state x="342" y="140" key="new project wizard" timestamp="1582005206535">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
